@@ -1,0 +1,500 @@
+{
+  "oracle": "direct NTT/INTT sums; schoolbook product; NIST public key coefficients",
+  "seed": 203,
+  "cases": [
+    {
+      "index": 0,
+      "name": "ntt_zero",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 1,
+      "name": "intt_zero",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 2,
+      "name": "pwm_zero",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 3,
+      "name": "mac_zero",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 4,
+      "name": "add_zero",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 5,
+      "name": "ntt_one",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 6,
+      "name": "intt_one",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 7,
+      "name": "pwm_one",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 8,
+      "name": "mac_one",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 9,
+      "name": "add_one",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 10,
+      "name": "ntt_qminus1",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 11,
+      "name": "intt_qminus1",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 12,
+      "name": "pwm_qminus1",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 13,
+      "name": "mac_qminus1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 14,
+      "name": "add_qminus1",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 15,
+      "name": "ntt_ramp",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 16,
+      "name": "intt_ramp",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 17,
+      "name": "pwm_ramp",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 18,
+      "name": "mac_ramp",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 19,
+      "name": "add_ramp",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 20,
+      "name": "ntt_alternating",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 21,
+      "name": "intt_alternating",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 22,
+      "name": "pwm_alternating",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 23,
+      "name": "mac_alternating",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 24,
+      "name": "add_alternating",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 25,
+      "name": "ntt_random_a",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 26,
+      "name": "intt_random_a",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 27,
+      "name": "pwm_random_a",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 28,
+      "name": "mac_random_a",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 29,
+      "name": "add_random_a",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 30,
+      "name": "ntt_random_b",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 31,
+      "name": "intt_random_b",
+      "cmd": 1,
+      "output_bank": 0
+    },
+    {
+      "index": 32,
+      "name": "pwm_random_b",
+      "cmd": 2,
+      "output_bank": 2
+    },
+    {
+      "index": 33,
+      "name": "mac_random_b",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 34,
+      "name": "add_random_b",
+      "cmd": 4,
+      "output_bank": 2
+    },
+    {
+      "index": 35,
+      "name": "nist512_s0_ntt_tc1",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 36,
+      "name": "nist512_e0_ntt_tc1",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 37,
+      "name": "nist512_s1_ntt_tc1",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 38,
+      "name": "nist512_e1_ntt_tc1",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 39,
+      "name": "nist512_row0_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 40,
+      "name": "nist512_row0_mac1_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 41,
+      "name": "nist512_row1_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 42,
+      "name": "nist512_row1_mac1_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 43,
+      "name": "nist768_s0_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 44,
+      "name": "nist768_e0_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 45,
+      "name": "nist768_s1_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 46,
+      "name": "nist768_e1_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 47,
+      "name": "nist768_s2_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 48,
+      "name": "nist768_e2_ntt_tc26",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 49,
+      "name": "nist768_row0_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 50,
+      "name": "nist768_row0_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 51,
+      "name": "nist768_row0_mac2_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 52,
+      "name": "nist768_row1_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 53,
+      "name": "nist768_row1_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 54,
+      "name": "nist768_row1_mac2_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 55,
+      "name": "nist768_row2_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 56,
+      "name": "nist768_row2_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 57,
+      "name": "nist768_row2_mac2_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 58,
+      "name": "nist1024_s0_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 59,
+      "name": "nist1024_e0_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 60,
+      "name": "nist1024_s1_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 61,
+      "name": "nist1024_e1_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 62,
+      "name": "nist1024_s2_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 63,
+      "name": "nist1024_e2_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 64,
+      "name": "nist1024_s3_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 65,
+      "name": "nist1024_e3_ntt_tc51",
+      "cmd": 0,
+      "output_bank": 0
+    },
+    {
+      "index": 66,
+      "name": "nist1024_row0_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 67,
+      "name": "nist1024_row0_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 68,
+      "name": "nist1024_row0_mac2",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 69,
+      "name": "nist1024_row0_mac3_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 70,
+      "name": "nist1024_row1_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 71,
+      "name": "nist1024_row1_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 72,
+      "name": "nist1024_row1_mac2",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 73,
+      "name": "nist1024_row1_mac3_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 74,
+      "name": "nist1024_row2_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 75,
+      "name": "nist1024_row2_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 76,
+      "name": "nist1024_row2_mac2",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 77,
+      "name": "nist1024_row2_mac3_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 78,
+      "name": "nist1024_row3_mac0",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 79,
+      "name": "nist1024_row3_mac1",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 80,
+      "name": "nist1024_row3_mac2",
+      "cmd": 3,
+      "output_bank": 2
+    },
+    {
+      "index": 81,
+      "name": "nist1024_row3_mac3_public_ek",
+      "cmd": 3,
+      "output_bank": 2
+    }
+  ],
+  "nist_parameter_sets": 3,
+  "nist_sha256": "d7a62a2c3476957f56dd8d24f9004ea6776ccfe995ffe71a65bb9506dc9c7b1b"
+}

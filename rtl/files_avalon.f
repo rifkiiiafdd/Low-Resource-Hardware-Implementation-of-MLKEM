@@ -1,0 +1,14 @@
+rtl/mlkem_top.v
+rtl/mlkem_pau_engine.v
+rtl/mlkem_transcoder.v
+rtl/ram_poly.v
+rtl/pau_core.v
+rtl/pau_modmul.v
+rtl/pau_zeta_rom.v
+rtl/sha3_keccak_core.v
+rtl/trng_core.v
+rtl/trng_conditioner.v
+rtl/trng_sha3_bridge.v
+rtl/ring_osc.v
+rtl/von_neumann.v
+rtl/mlkem_avalon_wrapper.v
